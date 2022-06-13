@@ -7,9 +7,9 @@ public class SwitchCase {
         System.out.println("Digit a number: \n *digit 0 for exit*");
         Scanner swi = new Scanner(System.in);
         num = swi.nextInt();
-            if (num > 12 || num < 0) {
-                System.out.println("Nonexistent Number ");
-            }
+//            if (num > 12 || num < 0) {
+//                System.out.println("Nonexistent Number ");
+//            }
             switch (num) {
                 case 1 -> System.out.println("January");
                 case 2 -> System.out.println("February");
@@ -18,11 +18,12 @@ public class SwitchCase {
                 case 5 -> System.out.println("may");
                 case 6 -> System.out.println("June");
                 case 7 -> System.out.println("July");
-                case 8 -> System.out.println("august");
+                case 8 -> System.out.println("august ");
                 case 9 -> System.out.println("september ends");
                 case 10 -> System.out.println("october *-*");
                 case 11 -> System.out.println("november rain");
                 case 12 -> System.out.println("december");
+                default -> System.out.println("invalid month");
             }
         } while (num != 0) ;
     }
