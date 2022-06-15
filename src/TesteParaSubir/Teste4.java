@@ -2,8 +2,8 @@ package TesteParaSubir;
 
 import java.util.Scanner;
 
-public class teste4 {
-    public static void main(String[] args) {
+public class Teste4 {
+    public static void main() {
         System.out.println("su salareo: ");
         Scanner sca = new Scanner(System.in);
         double salario = sca.nextDouble();

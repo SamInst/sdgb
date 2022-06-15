@@ -2,7 +2,7 @@ package TesteParaSubir;
 
 import java.util.Scanner;
 
-public class teste3 {
+public class Teste3 {
     public static void main(String[] args) {
         int idade;
         String cat = null;
@@ -25,4 +25,5 @@ public class teste3 {
             System.out.println(cat);
         } while (idade !=0);
     }
+
 }

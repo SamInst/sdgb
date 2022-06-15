@@ -1,6 +1,6 @@
 package TesteParaSubir;
 
-public class classsss {
+public class Classsss {
     public static void main(String[] args) {
         System.out.println("--------------------------------------------------");
         System.out.println("--------------------------------------------------");

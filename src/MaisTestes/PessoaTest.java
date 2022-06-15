@@ -1,7 +1,7 @@
 package MaisTestes;
 
 public class PessoaTest {
-    public static void main(String[] args) {
+    public static void main() {
         Pessoa pessoa = new Pessoa();
         pessoa.height = 1.83F;
         pessoa.name = "Sam Helson";
@@ -25,9 +25,5 @@ public class PessoaTest {
         p2.weight = 70.3F;
         p2.height = 1.53F;
         System.out.println(p2.name + "\n" + p2.age + "\n" + p2.sex + "\n" + p2.height + "\n" + p2.weight);
-
-
     }
-
-
-}
+    }
