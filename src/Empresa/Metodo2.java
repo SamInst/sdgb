@@ -1,6 +1,5 @@
 package Empresa;
-
 public class Metodo2 {
-    Funcionario med = new Funcionario();
-
+    public static void main(String[] args) {
+    }
 }
