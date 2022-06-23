@@ -1,13 +1,13 @@
 package Teste;
-import MaisTestes.Chamar;
-import MaisTestes.PessoaTest;
-import TesteParaSubir.Teste4;
+import MoreTests.Call;
+import MoreTests.PeopleTest;
+import TestToUp.Teste4;
 public class aaa {
     public static void main(String[] args) {
-        Chamar.sub();
-        Chamar.soma();
-        Chamar.dollar();
-        PessoaTest.main();
+        Call.sub();
+        Call.soma();
+        Call.dollar();
+        PeopleTest.main();
         Teste4.main();
     }
     }

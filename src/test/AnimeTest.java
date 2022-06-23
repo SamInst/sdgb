@@ -1,6 +1,6 @@
 package test;
 
-import Empresa.Anime;
+import Company.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {
