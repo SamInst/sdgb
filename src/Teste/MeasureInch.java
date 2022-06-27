@@ -2,7 +2,7 @@ package Teste;
 
 import java.util.Scanner;
 
-public class bbb {
+public class MeasureInch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
