@@ -2,12 +2,12 @@ package Pizzeria;
 
 public class Pizzas {
 
-Portuguese portuguese = new Portuguese("tomato","Onion","cheese","egg","oliver","pepperoni","flour","ham");
+Ingredients ingredients = new Ingredients("tomato","Onion","cheese","egg","oliver","pepperoni","flour","ham");
 Cheese cheese = new Cheese("cheese", "egg");
 Pepperoni pepperoni = new Pepperoni("pepperoni","egg","olive","flour","ham");
     public boolean callPizzaPortuguese(){
         System.out.println("Ingredients of Pizza Portuguese: ");
-        System.out.println(portuguese);
+        System.out.println(ingredients);
         return false;
     }
     public boolean callPizzaCheese() {

@@ -1,5 +1,5 @@
 package Pizzeria;
-public class Portuguese {
+public class Ingredients {
     private String tomato;
     private String onion;
     private String cheese;
@@ -14,7 +14,7 @@ public class Portuguese {
         return "Portuguese: " + tomato + ", " + onion + ", " + cheese + ", " + egg + ", " + olive + ", " + pepperoni + ", " + flour + ", " + ham + ", ";
     }
 
-    public Portuguese(String tomato, String onion, String cheese, String egg, String olive, String pepperoni, String flour, String ham) {
+    public Ingredients(String tomato, String onion, String cheese, String egg, String olive, String pepperoni, String flour, String ham) {
         this.tomato = tomato;
         this.onion = onion;
         this.cheese = cheese;

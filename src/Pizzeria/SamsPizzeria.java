@@ -18,13 +18,16 @@ public class SamsPizzeria {
 
             switch (esc) {
                 case 1 -> {
-                    System.out.println(pizzas.callPizzaPortuguese());
+                    System.out.println(pizzas.callPizzaPortuguese()
+
+                    );
+                    System.out.println("selected Portuguese...");
+                    System.out.println();
                 }
                 case 2 -> System.out.println(pizzas.callPizzaPepperoni());
                 case 3 -> System.out.println(pizzas.callPizzaCheese());
                 default -> {
                     System.out.println("invalid Option");
-
                 }
             }
         } while (esc != 0 || esc > 3);
